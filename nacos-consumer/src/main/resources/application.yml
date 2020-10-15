@@ -1,0 +1,9 @@
+server:
+  port: 9528
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 118.190.159.215:8848
